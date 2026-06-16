@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CODM Shop</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      color: white;
+      text-align: center;
+
+      background: url("https://images.unsplash.com/photo-1603481546579-65d935ba3cdd") center/cover no-repeat;
+    }
+
+    .overlay {
+      background: rgba(0,0,0,0.85);
+      min-height: 100vh;
+      padding-bottom: 50px;
+    }
+
+    header {
+      padding: 25px;
+      border-bottom: 2px solid #00c8ff;
+    }
+
+    /* STYLIZED TITLE FONT */
+    header h1 {
+      margin: 0;
+      color: #00c8ff;
+      letter-spacing: 2px;
+      font-size: 32px;
+    }
+
+    .quote {
+      color: #aaa;
+      font-style: italic;
+      margin-top: 10px;
+    }
+
+    .container {
+      padding: 40px 20px;
+    }
+
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    /* GLASS CARDS */
+    .card {
+      width: 320px;
+      padding: 20px;
+      border-radius: 12px;
+
+      background: rgba(20, 20, 20, 0.7);
+      border: 1px solid #00c8ff;
+      backdrop-filter: blur(6px);
+
+      box-shadow: 0 0 20px rgba(0,200,255,0.3);
+    }
+
+    .card h2 {
+      color: #00c8ff;
+    }
+
+    .price {
+      color: gold;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .desc {
+      color: #ccc;
+      font-size: 14px;
+    }
+
+    /* LIGHT BLUE BUTTON */
+    .btn {
+      display: inline-block;
+      padding: 12px 18px;
+      margin-top: 12px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+
+      background: linear-gradient(45deg, #00c8ff, #0077ff);
+      color: white;
+
+      box-shadow: 0 0 15px #00c8ff;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 25px #00c8ff;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 15px;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="overlay">
+
+  <header>
+    <!-- YOUR REQUESTED FONT STYLE -->
+    <h1>ℂ𝕒𝕝𝕝 𝕠𝕗 𝔻𝕦𝕥𝕪 𝕄𝕠𝕓𝕚𝕝𝕖 𝕊𝕙𝕠𝕡</h1>
+
+    <div class="quote">“Stay low. Move fast. Eliminate the enemy.”</div>
+  </header>
+
+  <div class="container">
+
+    <div class="grid">
+
+      <!-- CODM OFFICIAL -->
+      <div class="card">
+        <h2>CODM Official Store</h2>
+        <p class="price">Top Up CP Instantly</p>
+        <p class="desc">Official Call of Duty: Mobile store for secure CP purchases.</p>
+
+        <a class="btn" href="https://store.callofdutymobile.com/en-ke/codm" target="_blank">
+          BUY CP
+        </a>
+      </div>
+
+      <!-- CARRY1ST -->
+      <div class="card">
+        <h2>Carry1st Shop</h2>
+        <p class="price">Africa’s Trusted Top CP Shop</p>
+        <p class="desc">Secure Call of Duty: Mobile top-ups across Africa.</p>
+
+        <a class="btn" href="https://shop.carry1st.com/en/KE/product/codm-call-of-duty-mobile-cp-points-top-up-battle-pass/direct-topup" target="_blank">
+          BUY CP
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 Call of Duty Mobile Shop
+  </footer>
+
+</div>
+
+</body>
+</html>
